@@ -1,0 +1,48 @@
+/* ./styles.css */
+
+body {
+    background-color: #e7e8cc;
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+}
+
+section > p,
+section > blockquote {
+    line-height: 1.5;
+}
+
+#main-character {
+    font-weight: 600;
+}
+
+ol > li > span#favorite-movie {
+    font-style: italic;
+}
+
+.strikethrough-text {
+    text-decoration: line-through;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.07em;
+}
+
+section#description-section,
+section#fact-section {
+    background-color: pink;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#description-section img {
+    /* height: auto; */
+    max-width: 100%;
+    min-height: 120px;
+}
